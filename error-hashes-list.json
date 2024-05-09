@@ -1,8 +1,20 @@
 {
-    "attempt to call a nil value": "grandma",
-    "attempt to index a nil value": "extra",
-    "attempt to perform arithmetic on a nil value": "bomb",
-    "attempt to perform arithmetic on a string value": "virginia",
-    "bad argument #1 to": "marabunta",
-    "characters.lua:54": "index"
+    "attempt to call a nil value": "montgomery",
+    "attempt to index a nil value": "phoenix",
+    "attempt to index a number value": "chicago",
+    "attempt to concatenate a boolean value": "denver",
+    "attempt to perform arithmetic on a nil value": "hartford",
+    "attempt to perform arithmetic on a string value": "dover",
+    "attempt to compare number with string": "austin",
+    "attempt to compare nil with number": "sacramento",
+    "attempt to call a string value": "raleigh",
+    "attempt to call a table value": "tallahassee",
+    "attempt to index a boolean value": "nashville",
+    "attempt to concatenate a table value": "salt lake city",
+    "attempt to get length of a nil value": "springfield",
+    "attempt to get length of a number value": "baton rouge",
+    "bad argument #1 to": "atlanta",
+    
+    "No such export": "boston",
+    "'for iterator' (table expected, got nil)": "vehicle"
 }
