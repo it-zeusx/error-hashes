@@ -6,5 +6,5 @@
     "ui-content-validate": {
         "about": "No framework specified",
         "fix": "Make sure that UI starts after your framework (can be anywhere, but remember that we check it automatically)"
-    }
+    },
 }

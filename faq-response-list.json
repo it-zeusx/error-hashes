@@ -1,0 +1,14 @@
+{
+    "multicharacter-arithmetic-characters-54": {
+        "about": "Core of the issue is misconfigured ESX config file.",
+        "fix": "Navigate to the `es_extended/config.lua` file. Find the line of code \n ```lua\n Config.Multichar = GetResourceState('esx_multicharacter') ~= 'missing'\n```\n and replace it with \n ```lua\nConfig.Multichar = true`\n```. Ensure that every user in the `users` table in the database follows the `char<id>:<identifier>` format (for example, `char1:128931724ef01`). If a user does not follow this format, please remove that user or add the prefix `char1:` before their identifier."
+    },
+    "multicharacter-logo-not-visible": {
+        "about": "Core of the issue is in cdn (content-delivery network).",
+        "fix": "Go to https://fivemanage.com and upload the logo you prefer. Once the upload is complete, you can copy the URL of the image. Then, navigate to `shared/config.lua` and replace the existing URL in `Config.ServerLogo = 'your_url'` with the URL you just copied."
+    },
+    "multicharacter-appearance-not-visible": {
+        "about": "Core of the issue is in misconfigured or not supported appearance resource.",
+        "fix": "To resolve this issue, first verify if your appearance is supported. The supported appearances are: \n - skinchanger\n - qb-clothing\n - esx_skin\n - fivem-appearance\n - illenium-appearance\n - crm-appearance\nIf your appearance is one of the supported ones, then set that value inside `Config.ForceAppearance = 'your-resource-name-goes-here'` (for example, `Config.Appearance = 'illenium-appearance').\n\nIf your appearance is not supported, navigate to `client/framework/framework_functions.lua` and locate the following functions:\n - Framework.OpenSkinMenu\n - Framework.SetSkin\nYou will need to define your own functions within these."
+    }
+}
