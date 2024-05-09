@@ -1,0 +1,10 @@
+{
+    "ui-rush-blush": {
+        "about": "Unknown source",
+        "fix": "Change content of \n```lua\nConfig.ForceAppearance = 'your-appearance-goes-here'\n```"
+    },
+    "ui-content-validate": {
+        "about": "No framework specified",
+        "fix": "Make sure that UI starts after your framework (can be anywhere, but remember that we check it automatically)"
+    }
+}
