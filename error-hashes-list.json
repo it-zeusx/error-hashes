@@ -3,5 +3,6 @@
     "attempt to index a nil value": "extra",
     "attempt to perform arithmetic on a nil value": "bomb",
     "attempt to perform arithmetic on a string value": "virginia",
-    "bad argument #1 to": "marabunta"
+    "bad argument #1 to": "marabunta",
+    "characters.lua:54": "index"
 }
