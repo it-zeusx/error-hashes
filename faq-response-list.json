@@ -10,5 +10,5 @@
     "multicharacter-appearance-not-visible": {
         "about": "Core of the issue is in misconfigured or not supported appearance resource.",
         "fix": "To resolve this issue, first verify if your appearance is supported. The supported appearances are:\n- skinchanger\n- qb-clothing\n- esx_skin\n- fivem-appearance\n- illenium-appearance\n- crm-appearance\nIf your appearance is one of the supported ones, then set that value inside `Config.ForceAppearance = 'your-resource-name-goes-here'` (for example, `Config.Appearance = 'illenium-appearance'`).\n\nIf your appearance is not supported, navigate to `client/framework/framework_functions.lua` and locate the following functions:\n- Framework.OpenSkinMenu\n- Framework.SetSkin\nYou will need to define your own functions within these."
-    },
+    }
 }
